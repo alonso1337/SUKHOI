@@ -1,9 +1,17 @@
-public class Main{
-    public static void main(String[] args){
-        double x = 4;
-        double y = 2;
-        double summ = (1 + y) * (2 * x + y * y - (x + y) / (y + 1 / (x * x - 4)));
-        System.out.println(summ);
+public class Main {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
 
+        System.out.print("Введите x: ");
+        double x = scanner.nextDouble();
+
+        System.out.print("Введите y: ");
+        double y = scanner.nextDouble();
+
+        System.out.print("Введите z: ");
+        double z = scanner.nextDouble();
+
+        System.out.println("Результат: " + ((x + 2) * y - z) / y + y * z);
+
+        scanner.close();
     }
-}
