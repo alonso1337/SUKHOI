@@ -1,3 +1,4 @@
+import java.sql.SQLOutput;
 import java.util.Scanner;
 
 public class Main {
@@ -21,6 +22,7 @@ public class Main {
 
        ;
         System.out.println("Результат: " + ((x + 2) * y - z) / y + y * z);
+        System.out.println("!");
 
         scanner.close();
     }
